@@ -45,13 +45,11 @@ tbody tr:nth-child(odd) td {
     color: White;
 }
 
-/* Add a black background color to the top navigation */
 .nav {
     background-color: green;
     overflow: hidden;
 }
 
-/* Style the links inside the navigation bar */
 .nav a {
     float: left;
     color: white;
