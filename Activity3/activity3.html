@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Employee table</title>
+    <meta name="Activity 3 - Gavin Ferry" content="Activity 3">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="activity3.css">
+</head>
+
+<body>
+<main>
+    <header>
+        <div class="nav">
+            <a href="https://webpages.uncc.edu/aferry/Activity3/activity3.html">Employee Table</a>
+            <a href="https://webpages.uncc.edu/aferry/Activity3/tables.html">Personal Table</a>
+        </div>
+    </header>
+
+
+    <h2>HTML Tables</h2>
+    <h3>Employee Data in Complex Table</h3>
+</main>
+<ul>
+    <li>John Smith</li>
+    <li>Sharon Anderson</li>
+    <li>Ryan Torres</li>
+    <li>Robert Davis</li>
+    <li>Rose Wilson</li>
+    <li>Steve Garcia</li>
+    <li>Paula Jackson</li>
+    <li>Frank Hernandez</li>
+</ul>
+
+<figure>
+    <figcaption>Employee Information</figcaption>
+    <table>
+        <thead>
+        <tr class="whitetext">
+            <th scope="col">Category</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Years of Service</th>
+            <th scope="col">Monthly Salary</th>
+        </tr>
+        </thead>
+        <tr>
+            <th rowspan="3" scope="row">Sales</th>
+            <td>John Smith</td>
+            <td>JSmith18888@yahoo.com</td>
+            <td>8</td>
+            <td>30,000</td>
+        </tr>
+        <tr>
+            <td>Sharon Anderson</td>
+            <td>SharonMAnderson@gmail.com</td>
+            <td>10</td>
+            <td>40,000</td>
+        </tr>
+        <tr>
+            <td>Ryan Torres</td>
+            <td>Torres_12@gmail.com</td>
+            <td>4</td>
+            <td>45,000</td>
+        </tr>
+        <tr>
+            <th rowspan="2" scope="row">Advertising</th>
+            <td>Robert Davis</td>
+            <td>Rob__Davis@gmail.com</td>
+            <td>2</td>
+            <td>28,000</td>
+        </tr>
+        <tr>
+            <td>Rose Wilson</td>
+            <td>R_F_Wilson@gmail.com</td>
+            <td>7</td>
+            <td>30,000</td>
+        </tr>
+        <tr>
+            <th rowspan="3" scope="row">Marketing</th>
+            <td>Steve Garcia</td>
+            <td>SteGracia@yahoo.com</td>
+            <td>18</td>
+            <td>32,000</td>
+        </tr>
+        <tr>
+            <td>Paula Jackson</td>
+            <td>Jackson_78@yahoo.com</td>
+            <td>25</td>
+            <td>34,000</td>
+        </tr>
+        <tr>
+            <td>Frank Hernandez</td>
+            <td>Frank_Hernandez@gmail.com</td>
+            <td>6</td>
+            <td>28,000</td>
+        </tr>
+        <tr>
+            <th colspan="3" scope="row">Total years of service: </th>
+            <td>80</td>
+            <td>267,000</td>
+        </tr>
+    </table>
+</figure>
+
+<figure>
+    <figcaption>Sign up for our newsletter!</figcaption>
+    <form action="#">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="full_name" value="" size="35" placeholder="John Smith"><br>
+        <label for="phone">Phone:</label><br>
+        <input type="text" id="phone" name="phone_number" value="" size="35" placeholder="123-456-7890"><br>
+        <label for="email">Email address:</label><br>
+        <input type="text" id="email" name="email_address" value="" size="35" placeholder="JohnSmith@yahoo.com"><br>
+
+
+        <label for="six_months">6 month plan:</label><br>
+        <input type="radio" id="six_months" name="months" value="6"><br>
+        <label for="one_year">1 year plan:</label><br>
+        <input type="radio" id="one_year" name="months" value="12"><br>
+
+        <label for="news_type">Choose which newsletter to subscribe to:</label>
+
+        <select name="news" id="news_type">
+            <option value="all">All</option>
+            <option value="advertising">Advertising</option>
+            <option value="marketing">Marketing</option>
+            <option value="sales">Sales</option>
+        </select><br>
+
+        <label for="age" >I am at least 13 years old or older.</label><br>
+        <input type="checkbox" id="age" name="age" value="age" required><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</figure>
+
+
+<footer>
+    <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> <br>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+</footer>
+</body>
+</html>

@@ -1,0 +1,70 @@
+figure {
+    border: 1px #cccccc solid;
+    padding: 4px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: Green;
+    color: White;
+    padding: 2px;
+    text-align: center;
+}
+
+body {
+    width: 750px;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+thead
+{
+    background-color: green;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: .2em 1em .2em .5em;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.right {
+    text-align: right;
+}
+
+tbody tr:nth-child(odd) td {
+    background-color: lightgreen;
+}
+
+.whitetext th {
+    color: White;
+}
+
+.nav {
+    background-color: green;
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+input[type="submit"]{
+    background-color: dimgray;
+    color: white;
+    padding: 10px 15px;
+}
+
+input[type="text"]{
+    font-family: Verdana;
+    font-size: medium;
+    background-color: aliceblue;
+}
